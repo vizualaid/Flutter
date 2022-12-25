@@ -17,16 +17,21 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[600],
       ),
       body: const Center(
+        child: Image(
+            // image: NetworkImage("https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGUlMjAlMjB2ZXJ0aWNhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60")),
+          image: AssetImage('assets/pic2.jpeg'),
+        ),
         // Text("Inside Body"),
-        child: Text("Hello! \nThis is My First Flutter App",
-          style: TextStyle(
-          fontFamily: 'blues',
-          fontSize: 20.0,
-          color:Colors.amber,
-          letterSpacing: 2.0,
-          fontWeight: FontWeight.bold,
-        ),),
+        // child: Text("Hello! \nThis is My First Flutter App",
+        //   style: TextStyle(
+        //   fontFamily: 'blues',
+        //   fontSize: 20.0,
+        //   color:Colors.amber,
+        //   letterSpacing: 2.0,
+        //   fontWeight: FontWeight.bold,
+        // ),),
       ),
+
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
         backgroundColor: Colors.amber[600],
